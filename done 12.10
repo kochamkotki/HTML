@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html>
+<head> 		
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+</head>
+	<body>
+		<table border="0" height="60px" align=center width="50%" style="background-color:#87CEFA;">
+			<tr>
+				<td align=center>
+				<p> <img align=center height="100px" src=https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/129/heart-with-arrow_1f498.png></p><font face="LObster" size="10">HeLLO Everyone</font><p> have a nice day!! </p> </td>
+				
+			</tr>
+		</table>
+		<table width="50%" border="0" align=center cellpadding="20" cellspacing="15">
+			<tr>
+				<td align=center > Cos’è Lorem Ipsum? </td>
+			</tr>
+			<tr>
+				<td> Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. </td>
+			</tr>
+		<table border="0" width="50%" align=center cellpadding="20" cellspacing="15">
+			<tr>
+				<td width="48%" align=center> <img height="200px" src=https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/129/sparkling-heart_1f496.png></td>
+				
+				<td width="5%"> </td>
+				
+				<td width="48%" align=center> <img height="200px" src=https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/129/beating-heart_1f493.png></td>
+			
+			</tr>
+			<tr>
+				<td width="48%" align=center>Esistono innumerevoli variazioni dei passaggi del Lorem Ipsum, ma la maggior parte hanno subito delle variazioni del tempo, a causa dell’inserimento di passaggi ironici, o di sequenze casuali di caratteri palesemente poco verosimili. </td>
+				
+				<td width="5%"> </td>
+				
+				<td width="48%" align=center>Esistono innumerevoli variazioni dei passaggi del Lorem Ipsum, ma la maggior parte hanno subito delle variazioni del tempo, a causa dell’inserimento di passaggi ironici, o di sequenze casuali di caratteri palesemente poco verosimili. </td>
+			
+			</tr>
+		</table>
+		<table border="0"width="50%" align=center cellpadding="20" cellspacing="15" style="background-color:#6495ED;"> 
+			<tr>
+				<td width="80%">  Milan,Italy 2018 </td>
+				<td width="20%" align=right> <i class="fa fa-facebook" aria-hidden="true"></i> <i class="fa fa-twitter" aria-hidden="true"></i>
+</td>
+			</tr>
+		</table>
+		</table>
+		
+	</body>	
+</html>
