@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	
+	<body>
+		<form oninput="wynik.value = parseInt(a.value) * parseInt(b.value) * (1+parseFloat(c.value))">
+			<table border="0" align=center bgcolor=#FFFF99>
+				<tr>
+				<td> Invoice </td>
+				</tr>
+				<tr>
+					<td width="40%"> Number of hours </td>
+					<td> <input name="a" type=number min="0" step="1" value="40"> </td>
+				</tr>
+				<tr>
+					<td width="40%"> Rate </td>
+					<td> <input name="b" type=number min="0" step="1" value="0"> </td>
+				</tr>
+				<tr>
+					<td width="40%"> Vat </td>
+					<td> <input name="c" type=number min="0" max="1" step="0.01" value=0.22> </td>
+				</tr>
+				<tr>
+					<th width="40%"> TOTAL </th>
+					<td> 
+						<output name="wynik"> ?? </output>
+					</td>
+					</tr>
+			</table>	
+		</form>
+	</body>
+</html>
