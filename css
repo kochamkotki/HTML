@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.container {
+				display:grid;
+				grid-template-columns: 30% 30% 30%;
+				grid-column-gap: 10px;
+				grid-row-gap: 20px;
+			}	
+			.large {
+				gird-column-start
+			.row {
+				outline: 1px solid red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">1</div>
+			<div class="row">2</div>
+			<div class="row">3</div>
+			<div class="row">4</div>
+			<div class="row">5</div>
+			<div class="row">6</div>
+		</div>
+	</body>
+</html>
