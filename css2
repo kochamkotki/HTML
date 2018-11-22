@@ -1,0 +1,9 @@
+@media screen and (max-width: 576px) {
+    .szary {
+	background-color: #CC3366;
+    }
+
+    .pomaranczowy {
+	background-color: #990033;
+    }
+}
