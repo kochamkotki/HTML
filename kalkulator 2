@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.container {
+				display:grid;
+				grid-template-columns: repeat(4, 60px);
+				grid-template-rows: 60px 60px 60px 60px 60px;
+				text-align: center;
+				line-height: 60px;
+				
+			}	
+			
+			.row {
+				outline: 1px solid black;
+			}
+			.pomaranczowy {
+				background-color: orange;
+				font-size: 20px;
+				font-family: Georgia;
+		
+			}
+			.szary {
+				background-color: #D9D9D9;
+				font-size: 20px;
+				font-family: Georgia;
+			}
+			.zero {
+				grid-column-start: 1;
+				grid-column-end: 3;
+			}
+			.wynik {
+				display:grid;
+				grid-template-columns: 240px;
+				grid-template-rows: 40px; 
+				line-height: 40px;
+				text-align: center;
+			}
+			.wynik div {
+				background-color: black;
+			}
+			.malyczarny {
+				font-size: 10px;
+				text-align: right;
+				font-family: Georgia;
+				color: #D9D9D9;
+			}
+			.duzyczarny {
+				font-size: 30px;
+				text-align: right;
+				font-family: Georgia;
+				color: white
+			}
+		</style>
+					<link rel="stylesheet"  href="cccccc.css">
+
+	</head>
+	<body>
+		<div class="wynik"> 
+			<div class="malyczarny"> 5935.920 </div>
+			<div class="duzyczarny"> 6372820 </div>
+		</div>
+		<div class="container">
+			<div class="row szary">C</div>
+			<div class="row szary">%</div>
+			<div class="row szary">←</div>
+			<div class="row pomaranczowy">÷</div>
+			<div class="row szary">7</div>
+			<div class="row szary">8</div>
+			<div class="row szary">9</div>
+			<div class="row pomaranczowy">x</div>
+			<div class="row szary">4</div>
+			<div class="row szary">5</div>
+			<div class="row szary">6</div>
+			<div class="row pomaranczowy">-</div>
+			<div class="row szary">1</div>
+			<div class="row szary">2</div>
+			<div class="row szary">3</div>
+			<div class="row pomaranczowy">+</div>
+			<div class="row szary zero">0</div>
+			<div class="row szary">.</div>
+			<div class="row pomaranczowy">=</div>
+			
+		</div>
+	</body>
+</html>	
