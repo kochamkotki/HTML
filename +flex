@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+     header, footer, article, nav, aside, .content * {
+			padding: 1em;
+	}
+	 .container{
+        display: flex;
+        height: 100vh;
+      }
+      nav{
+        flex-grow:1;
+        background-color: #ffccdd;
+      }
+      .naglowek{
+        display: flex;
+        flex-grow:3.5;
+        flex-direction: column;
+       }
+      header, footer{
+        background-color:#ff4d88;
+        flex-basis: 17vh;
+      }
+      main{
+        display:flex;
+        flex-basis: 66vh;
+      }
+      article{
+        flex-grow:3
+      }
+      aside{
+        flex-grow:1;
+        background-color: #ff99bb;
+      }
+     </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav> nav </nav>
+      <div class="naglowek">
+        <header>header </header>
+        <main>
+          <article class="">
+            article
+          </article>
+          <aside class=""> aside</aside>
+        </main>
+        <footer>footer</footer>
+      </div>
+     </div>
+  </body>
+</html>
