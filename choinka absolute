@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<style>
+				.triangle.s {
+					position: absolute;
+					border: 60px solid transparent;
+					border-bottom-color: green;
+					width: 0;
+					height: 0;
+					left: 50%;
+				}
+				
+				.triangle.l {
+					position: absolute;
+					border: 100px solid transparent;
+					border-bottom-color: green;
+					width: 0;
+					height:0;	
+					left: calc(50% - 35px);
+					top: -10px;
+				}
+				
+				.triangle.xl {
+					position: absolute;
+					border: 120px solid transparent;
+					border-bottom-color: green;
+					width: 0;
+					height: 0;
+					left: calc(50% - 50px);
+					top: 35px;
+				}
+				
+				.trunk {
+					position: absolute;
+					width: 60px;
+					height: 60px;
+					background-color: brown;
+					left: calc(50% + 35px);
+					top: 275px;
+				}
+				
+				.all {
+					position: relative;
+					height: 400px;
+					width: 400px;
+					margin: auto auto;
+					
+				}
+				.trunk {
+					
+				}
+			</style>
+	</head>
+	<body>
+		<div class="all">
+			<div class="triangle s"> </div>
+			<div class="triangle l"></div>
+			<div class="triangle xl"></div>
+			<div class="trunk"> </div>
+		</div>
+		
+	</body>
+</html>
