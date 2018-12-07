@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.balwan {
+			
+			}
+			
+			.glowa {
+				width: 100px;
+				height: 100px;
+				background: red;
+				border-radius: 50%			
+			}
+			
+			.tlow {
+				width: 100px;
+				height: 100px;
+				background: red;
+				border-radius: 50%	
+			}
+			
+			.dupa {
+				width: 100px;
+				height: 100px;
+				background: red;
+				border-radius: 50%
+			}
+		</style>
+	</head>
+	<body>
+		<div class="balwan">
+			<div class="glowa">	</div>
+			<div class="tlow"> </div>
+			<div class="dupa"> </div>
+		<div>
+	
+	</body>
+</html>
