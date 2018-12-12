@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.balwan {
+				width: 50%;
+				margin: auto;
+
+			}
+			
+			.glowa {
+				width: 100px;
+				height: 100px;
+				background: white;
+				border-radius: 50%;
+				position: absolute;
+				top: 50px;
+				z-index: -1;
+			}
+			
+			.tlow {
+				width: 150px;
+				height: 150px;
+				background: white;
+				border-radius: 50%;
+				position: absolute;
+				top: 130px;
+				left: 365px;
+				
+			}
+			
+			.dupa {
+				width: 200px;
+				height: 200px;
+				background: white;
+				border-radius: 50%;
+				position: absolute;
+				top: 250px;
+				left: 345px;
+				
+			}
+			
+			.kapelusz {
+			
+			}
+			
+			.kapelutek {
+				width: 95px;
+				height: 75px;
+				background: brown;
+				position: absolute;
+				RIGHT: 1050px;
+				z-index: -2;
+			}
+			
+			.podstawa {
+				width: 150px;
+				height: 30px;
+				background: brown;
+				position: absolute;
+				RIGHT: 1015px;
+				z-index: 0;
+				top: 50px;
+			}
+			.guzik1 {
+				width: 10px;
+				height: 10px;
+				background: black;
+				position: absolute;	
+				top: 300px;
+				left: 433px;
+				z-index: 2;
+			}
+			.guzik2 {
+				width: 10px;
+				height: 10px;
+				background: black;
+				position: absolute;
+				top: 250px;
+				left: 433px;
+				z-index: 2;
+			}
+			.guzik3 {
+				width: 10px;
+				height: 10px;
+				background: black;
+				position: absolute;
+				top: 200px;
+				left: 433px;
+				z-index: 2;
+			}
+			
+			.nos {
+				width: 0;
+				height: 0;
+				border-top: 15px solid transparent;
+				border-left: 30px solid orange;
+				border-bottom: 15px solid transparent;
+				position: absolute;
+				left: 440px;
+				top: 90px;  
+				z-index: 2;
+			}
+			
+			.dodatki {
+				
+			}
+			
+			.oko1 {
+				width: 8px;
+				height: 8px;
+				background: black;
+				position: absolute;
+				top: 80px;
+				left: 417px;
+				z-index: 0;
+			}
+			
+			.oko2 {
+				width: 8px;
+				height: 8px;
+				background: black;
+				position: absolute;
+				top: 80px;
+				left: 466px;
+				z-index: 0;
+			
+			}
+			
+		</style>
+	</head>
+	<body bgcolor="#000099"></body>
+	<body>
+		<div class="dodatki">
+			<div class="guzik1"> </div>
+			<div class="guzik2"> </div>
+			<div class="guzik3"> </div>
+			<div class="nos"> </div>
+			<div class="oko1"> </div>
+			<div class="oko2"> </div>
+			
+		</div>
+		<div class="kapelusz">
+			<div class="kapelutek"> </div>
+			<div class="podstawa"> </div>
+		</div>
+		<div class="balwan">
+			<div class="glowa">	</div>
+			<div class="tlow"> </div>
+			<div class="dupa"> </div>
+		<div>
+	
+	</body>
+</html>
