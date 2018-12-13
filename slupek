@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		
+			@keyframes zmiana_koloru {
+				
+				0%, 100% {
+					background-color: #FF99FF;
+				}
+				
+				50% {
+					background-color: #990066;
+				}
+				
+			}
+		
+			.noga {
+				height: 70px;
+				width: 50px;
+				border: 2px solid black;
+				background-color: #660033 ;
+				position: relative;
+				top: -100px;
+				z-index: -4;
+				left: 25px;
+				border-bottom: 0;
+			
+			}
+			
+			.dolnoga {
+				height: 50px;
+				width: 50px;
+				border-radius: 50%;
+				border: 2px solid black;
+				background-color: #660033 ;
+				position: relative;
+				top: -130px;
+				left: 25px;
+				z-index: -5;
+			}
+			
+			.slup {
+			
+			}
+			
+			.gora {
+				height: 50px;
+				width: 100px;
+				border-radius: 50%;
+				border: 2px solid black;
+				background-color:  #660033;
+				position: relative;
+				top: 25px;
+			}
+			
+			.srodek {
+				height: 120px;
+				width: 100px;
+				background-color: #FF66FF;
+				border: 2px solid black;
+				border-bottom: 0;
+				animation-name: zmiana_koloru;
+				animation-duration: 5s;
+				animation-iteration-count: infinite;
+				
+				
+			}
+			
+			.dol {
+				height: 50px;
+				width: 100px;
+				border-radius: 50%;
+				border: 2px solid black;
+				background-color: #FF66FF;
+				position: relative;
+				top: -26px;
+				z-index: -1;
+				animation-name: zmiana_koloru;
+				animation-duration: 5s;
+				animation-iteration-count: infinite;
+			
+			}
+			
+			.czerwony {
+				height: 120px;
+				width: 100px;
+				background-color: #CC0099;
+				border: 2px solid black;
+				border-bottom: 0;
+				z-index: -2;
+				position: relative;
+				top: -55px;
+			
+			}
+			
+			.dol2 {
+				height: 50px;
+				width: 100px;
+				border-radius: 50%;
+				border: 2px solid black;
+				background-color: #CC0099;
+				position: relative;
+				top: -83px;
+				z-index: -3;
+			}
+			
+			.
+		</style>
+	</head>
+	<body>
+		<div class="slup">
+			<div class="gora"> </div>
+			<div class="srodek"> </div>
+			<div class="dol"> </div>
+			<div class="czerwony"> </div>
+			<div class="dol2"> </div>	
+			<div class="noga"> </div>
+			<div class="dolnoga"> </div> 
+		</div>
+		
+	</body>
+</html>
